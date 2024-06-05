@@ -126,7 +126,7 @@ export default {
 
           break;
         case "kick":
-          item.iframe = `https://kick.com/${item.channel}/chatroom`;
+          item.iframe = `https://tools.kick.cx/chat?user=${item.channel}&animate=true&badges=true&commands=true&bots=true&textsize=15px&customtheme=QGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1JbnRlcicpOyNjaGF0LWNvbnRhaW5lciB7Zm9udC1mYW1pbHk6IEludGVyLCB1aS1zYW5zLXNlcmlmO30jbG9hZGluZ3tkaXNwbGF5Om5vbmU7fQ==`
           item.chat = `https://kick.com/${item.channel}/chatroom`;
           item.stream = `https://kick.com/${item.channel}`;
           item.dashboard = "https://kick.com/dashboard/stream";
